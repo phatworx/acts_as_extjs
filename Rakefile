@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{ActiveRecord Helper for Extjs}
     gem.description = %Q{ActiveRecord Helper for Extjs}
     gem.email = "develop@marco-scholl.de"
-    gem.homepage = "http://github.com/traxanos/acts_as_extjs"
+    gem.homepage = "http://github.com/phatworx/acts_as_extjs"
     gem.authors = ["Marco Scholl"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_runtime_dependency "activerecord", ">= 3.0.0"
