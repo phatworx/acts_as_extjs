@@ -115,6 +115,9 @@ module Extjs #:nodoc:
               if row[field].is_a? ActiveSupport::TimeWithZone or row[field[:name]].is_a? DateTime or row[field[:name]].is_a? Time
                 row[field[:name]] = row[field[:name]].strftime("%Y-%m-%d %H:%M:%S")
               end
+
+              row[field[:name]] = row[field[:name]].to_f if field[:type] == :float
+              row[field[:name]] = row[field[:name]].to_i if field[:type] == :int
             end
           end
           rows << row
