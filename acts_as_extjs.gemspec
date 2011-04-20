@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{acts_as_extjs}
-  s.version = "0.3.3"
+  s.version = "0.3.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marco Scholl"]
-  s.date = %q{2011-04-19}
+  s.date = %q{2011-04-20}
   s.description = %q{ActiveRecord Helper for Extjs}
   s.email = %q{develop@marco-scholl.de}
   s.extra_rdoc_files = [
