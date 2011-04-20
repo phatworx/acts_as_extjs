@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
     "spec/spec.opts",
     "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/traxanos/acts_as_extjs}
+  s.homepage = %q{http://github.com/phatworx/acts_as_extjs}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{ActiveRecord Helper for Extjs}
